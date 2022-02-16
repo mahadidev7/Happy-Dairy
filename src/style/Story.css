@@ -25,6 +25,10 @@
 
 @media only screen and (max-width: 500px){
     .story__header{
-            width: 50%;
+        width: 50%;
     }   
+    .story__Title__Img{
+        width: 80%;
+        padding-top: 0px;
+    }
 }

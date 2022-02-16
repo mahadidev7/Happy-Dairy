@@ -54,7 +54,7 @@ address{
         gap: 20px;
         padding: 20px 0;
     }
-    .f__social_Link li{
+    .f__social_Link li a{
         justify-content: center;
     }
 }

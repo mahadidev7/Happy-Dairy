@@ -55,7 +55,7 @@ ul{
 @media only screen and (max-width: 500px){
     .container{
         width: 95%;
-        max-width: unset;
+        min-width: 95%;
     }
     .section__Title{
         font-size: 3rem;
