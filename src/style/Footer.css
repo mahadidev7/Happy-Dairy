@@ -1,0 +1,14 @@
+.footerGroup{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    
+}
+.footerGroup a{
+    color: #ff8c00;
+}
+.footerGroup a:hover{
+    opacity: 0.7;
+}
+
+

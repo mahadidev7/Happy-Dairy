@@ -1,0 +1,72 @@
+.contactSection{
+    overflow: hidden;
+}
+.contact__Header .section__Title{
+    padding: 50px 0;
+    margin-bottom: 0;
+}
+.contactGroup{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    position: relative;
+}
+.contactGroup:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(to left, #F1F9F1 50%, #FEFCF4 50%) ;
+    width: 200%;
+    height: 100%;
+    z-index: -5;
+}
+address{
+    font-style: unset;
+    width: 190px;
+    text-align: center;
+    margin: auto;
+}
+
+.contact__item__left .F__logo{
+    width: 270px;
+}
+
+.contact__item__right .section__Title{
+    font-size: 2.50rem;
+    text-align: left;
+}
+.f__social_Link li a{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 5px;
+}
+.f__social_Link li span i{
+    color: var(--secondary-color);
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 767px){
+    .contactGroup{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .f__social_Link li{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .f__social_Link li span i{
+        font-size: 25px;
+    }
+    .contact__item__right .section__Title{
+        font-size: 2rem;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+}
+

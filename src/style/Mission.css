@@ -1,0 +1,9 @@
+.missionSection{
+    background: linear-gradient(90deg, rgba(255, 237, 186, 0.2) 0%, rgba(255, 237, 186, 0) 100%);
+    padding: 3rem 0;
+    margin-top: 60px;
+}
+.happinessSection{
+    background: linear-gradient(90deg, rgba(62, 171, 54, 0) 0%, rgba(62, 171, 54, 0.1) 100%);
+    padding: 3rem 0;
+}
