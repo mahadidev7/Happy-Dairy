@@ -13,7 +13,9 @@ const Contact = () => {
         <div className='container'>
             <div className='contactGroup'>
                 <div className='contact__item__left'>
-                    <img src='https://i.ibb.co/ZGwNbyr/logo.png' alt='F__logo' className='F__logo'/>
+                    <a href='#'>
+                        <img src='https://i.ibb.co/ZGwNbyr/logo.png' alt='F__logo' className='F__logo'/>
+                    </a>
                     <address>Emmalaan 12 Postbus 143 743 DK Baarn Holland</address>
                 </div>
                 <div className='contact__item__right'>
